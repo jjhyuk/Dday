@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		947E47E925504897000A292D /* DdayTableViewCotrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */; };
+		947E47EE25504D69000A292D /* JHCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47ED25504D69000A292D /* JHCustomTabBar.swift */; };
+		947E47F7255051AB000A292D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47F5255051AB000A292D /* CustomCollectionViewCell.swift */; };
+		947E47F8255051AB000A292D /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 947E47F6255051AB000A292D /* CustomCollectionViewCell.xib */; };
+		947E47FC25505329000A292D /* NSObject+reusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47FB25505329000A292D /* NSObject+reusableIdentifier.swift */; };
+		949E30242522343D008C1015 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E30232522343D008C1015 /* Product.swift */; };
 		94DDF583248FD29C007A5035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDF582248FD29C007A5035 /* AppDelegate.swift */; };
-		94DDF587248FD29C007A5035 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DDF586248FD29C007A5035 /* MainTabViewController.swift */; };
-		94DDF58A248FD29C007A5035 /* MainTabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDF588248FD29C007A5035 /* MainTabViewController.storyboard */; };
+		94DDF58A248FD29C007A5035 /* DdayTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDF588248FD29C007A5035 /* DdayTableViewController.storyboard */; };
 		94DDF58C248FD29F007A5035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DDF58B248FD29F007A5035 /* Assets.xcassets */; };
 		94DDF58F248FD29F007A5035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDF58D248FD29F007A5035 /* LaunchScreen.storyboard */; };
 		94DDF599248FD2EF007A5035 /* AfterLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DDF598248FD2EF007A5035 /* AfterLaunchScreen.storyboard */; };
@@ -21,10 +26,15 @@
 
 /* Begin PBXFileReference section */
 		0B75A03C3B0F71DEF50A3925 /* Pods-dday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dday.debug.xcconfig"; path = "Target Support Files/Pods-dday/Pods-dday.debug.xcconfig"; sourceTree = "<group>"; };
+		947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DdayTableViewCotrollerViewController.swift; sourceTree = "<group>"; };
+		947E47ED25504D69000A292D /* JHCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHCustomTabBar.swift; sourceTree = "<group>"; };
+		947E47F5255051AB000A292D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		947E47F6255051AB000A292D /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		947E47FB25505329000A292D /* NSObject+reusableIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+reusableIdentifier.swift"; sourceTree = "<group>"; };
+		949E30232522343D008C1015 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		94DDF57F248FD29C007A5035 /* dday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DDF582248FD29C007A5035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94DDF586248FD29C007A5035 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
-		94DDF589248FD29C007A5035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainTabViewController.storyboard; sourceTree = "<group>"; };
+		94DDF589248FD29C007A5035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DdayTableViewController.storyboard; sourceTree = "<group>"; };
 		94DDF58B248FD29F007A5035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DDF58E248FD29F007A5035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94DDF590248FD29F007A5035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,11 +58,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9475C00A2535EA9F001466C8 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		947E47FA25505309000A292D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				947E47FB25505329000A292D /* NSObject+reusableIdentifier.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		947E48002551AD86000A292D /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				947E47ED25504D69000A292D /* JHCustomTabBar.swift */,
+				947E47F5255051AB000A292D /* CustomCollectionViewCell.swift */,
+				947E47F6255051AB000A292D /* CustomCollectionViewCell.xib */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		949E30222522342A008C1015 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				949E30232522343D008C1015 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		94DDF576248FD29C007A5035 = {
 			isa = PBXGroup;
 			children = (
 				94DDF581248FD29C007A5035 /* dday */,
-				94DDF59A248FD34E007A5035 /* Supporting Files */,
 				94DDF580248FD29C007A5035 /* Products */,
 				AFD12551FE9BEC3E05488CA5 /* Pods */,
 				B15ACDCE521BE8965B056D91 /* Frameworks */,
@@ -70,21 +112,26 @@
 		94DDF581248FD29C007A5035 /* dday */ = {
 			isa = PBXGroup;
 			children = (
+				947E47FA25505309000A292D /* Extension */,
 				94DDF59B248FD727007A5035 /* Utils */,
-				94DDF596248FD2D0007A5035 /* Storyboard */,
+				9475C00A2535EA9F001466C8 /* Test */,
+				949E30222522342A008C1015 /* Model */,
+				94DDF596248FD2D0007A5035 /* View */,
 				94DDF582248FD29C007A5035 /* AppDelegate.swift */,
-				94DDF586248FD29C007A5035 /* MainTabViewController.swift */,
+				94DDF59A248FD34E007A5035 /* SupportingFiles */,
 			);
 			path = dday;
 			sourceTree = "<group>";
 		};
-		94DDF596248FD2D0007A5035 /* Storyboard */ = {
+		94DDF596248FD2D0007A5035 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				94DDF588248FD29C007A5035 /* MainTabViewController.storyboard */,
+				947E48002551AD86000A292D /* CustomTabBar */,
+				94DDF588248FD29C007A5035 /* DdayTableViewController.storyboard */,
+				947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */,
 				94DDF597248FD2DA007A5035 /* LaunchScreen */,
 			);
-			path = Storyboard;
+			path = View;
 			sourceTree = "<group>";
 		};
 		94DDF597248FD2DA007A5035 /* LaunchScreen */ = {
@@ -96,13 +143,13 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
-		94DDF59A248FD34E007A5035 /* Supporting Files */ = {
+		94DDF59A248FD34E007A5035 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				94DDF590248FD29F007A5035 /* Info.plist */,
 				94DDF58B248FD29F007A5035 /* Assets.xcassets */,
 			);
-			path = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		94DDF59B248FD727007A5035 /* Utils */ = {
@@ -219,7 +266,8 @@
 				94DDF599248FD2EF007A5035 /* AfterLaunchScreen.storyboard in Resources */,
 				94DDF58F248FD29F007A5035 /* LaunchScreen.storyboard in Resources */,
 				94DDF58C248FD29F007A5035 /* Assets.xcassets in Resources */,
-				94DDF58A248FD29C007A5035 /* MainTabViewController.storyboard in Resources */,
+				947E47F8255051AB000A292D /* CustomCollectionViewCell.xib in Resources */,
+				94DDF58A248FD29C007A5035 /* DdayTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +320,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DDF587248FD29C007A5035 /* MainTabViewController.swift in Sources */,
 				94DDF5A2248FD7A2007A5035 /* JHReqeust.swift in Sources */,
 				94DDF583248FD29C007A5035 /* AppDelegate.swift in Sources */,
+				947E47EE25504D69000A292D /* JHCustomTabBar.swift in Sources */,
+				947E47F7255051AB000A292D /* CustomCollectionViewCell.swift in Sources */,
+				947E47FC25505329000A292D /* NSObject+reusableIdentifier.swift in Sources */,
 				94DDF5A5248FD7D3007A5035 /* DataRequest+Logging.swift in Sources */,
 				94DDF5A0248FD760007A5035 /* JHLog.swift in Sources */,
+				949E30242522343D008C1015 /* Product.swift in Sources */,
+				947E47E925504897000A292D /* DdayTableViewCotrollerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		94DDF588248FD29C007A5035 /* MainTabViewController.storyboard */ = {
+		94DDF588248FD29C007A5035 /* DdayTableViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				94DDF589248FD29C007A5035 /* Base */,
 			);
-			name = MainTabViewController.storyboard;
+			name = DdayTableViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		94DDF58D248FD29F007A5035 /* LaunchScreen.storyboard */ = {
@@ -424,8 +476,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RTPYYR7K8H;
-				INFOPLIST_FILE = "Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = /Users/jinhyuk/Desktop/Project_Dday/dday/dday/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,8 +498,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RTPYYR7K8H;
-				INFOPLIST_FILE = "Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				INFOPLIST_FILE = /Users/jinhyuk/Desktop/Project_Dday/dday/dday/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
