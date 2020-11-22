@@ -44,12 +44,12 @@ class JHCustomTabBar: UIView {
         return collectionView
     }()
     
-    var selectPositionView: UIView = {
-        var view = UIView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = .blue
-        return view
-    }()
+//    var selectPositionView: UIView = {
+//        var view = UIView()
+//        view.translatesAutoresizingMaskIntoConstraints = false
+//        view.backgroundColor = .blue
+//        return view
+//    }()
     
     func setTextList(array: Array<String>) -> Self {
         
@@ -83,14 +83,14 @@ class JHCustomTabBar: UIView {
         }
         
         
-        self.addSubview(selectPositionView)
-        selectPositionView.snp.makeConstraints { (make) in
-            // [TODO] 외부 주입
-            self.constrainttWidth = make.width.equalTo(self.frame.size.width / CGFloat(textArray.count)).constraint
-            make.height.equalTo(5)
-            self.constraintLeading = make.leading.equalToSuperview().constraint
-            make.bottom.equalToSuperview()
-        }
+//        self.addSubview(selectPositionView)
+//        selectPositionView.snp.makeConstraints { (make) in
+//            // [TODO] 외부 주입
+//            self.constrainttWidth = make.width.equalTo(self.frame.size.width / CGFloat(textArray.count)).constraint
+//            make.height.equalTo(5)
+//            self.constraintLeading = make.leading.equalToSuperview().constraint
+//            make.bottom.equalToSuperview()
+//        }
         
     }
     

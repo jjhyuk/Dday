@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9434B43725655C8F00ABAC2A /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434B43525655C8F00ABAC2A /* PageCell.swift */; };
+		94423F59256AA8AB004AF50B /* PageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94423F58256AA8AB004AF50B /* PageCell.xib */; };
+		94423F61256AB656004AF50B /* DdayPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94423F5F256AB656004AF50B /* DdayPageCell.swift */; };
+		94423F62256AB656004AF50B /* DdayPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94423F60256AB656004AF50B /* DdayPageCell.xib */; };
 		947E47E925504897000A292D /* DdayTableViewCotrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */; };
 		947E47EE25504D69000A292D /* JHCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47ED25504D69000A292D /* JHCustomTabBar.swift */; };
 		947E47F7255051AB000A292D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E47F5255051AB000A292D /* CustomCollectionViewCell.swift */; };
@@ -26,6 +30,10 @@
 
 /* Begin PBXFileReference section */
 		0B75A03C3B0F71DEF50A3925 /* Pods-dday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dday.debug.xcconfig"; path = "Target Support Files/Pods-dday/Pods-dday.debug.xcconfig"; sourceTree = "<group>"; };
+		9434B43525655C8F00ABAC2A /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		94423F58256AA8AB004AF50B /* PageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageCell.xib; sourceTree = "<group>"; };
+		94423F5F256AB656004AF50B /* DdayPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DdayPageCell.swift; sourceTree = "<group>"; };
+		94423F60256AB656004AF50B /* DdayPageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DdayPageCell.xib; sourceTree = "<group>"; };
 		947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DdayTableViewCotrollerViewController.swift; sourceTree = "<group>"; };
 		947E47ED25504D69000A292D /* JHCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHCustomTabBar.swift; sourceTree = "<group>"; };
 		947E47F5255051AB000A292D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 				947E48002551AD86000A292D /* CustomTabBar */,
 				94DDF588248FD29C007A5035 /* DdayTableViewController.storyboard */,
 				947E47E825504897000A292D /* DdayTableViewCotrollerViewController.swift */,
+				9434B43525655C8F00ABAC2A /* PageCell.swift */,
+				94423F58256AA8AB004AF50B /* PageCell.xib */,
+				94423F5F256AB656004AF50B /* DdayPageCell.swift */,
+				94423F60256AB656004AF50B /* DdayPageCell.xib */,
 				94DDF597248FD2DA007A5035 /* LaunchScreen */,
 			);
 			path = View;
@@ -265,6 +277,8 @@
 			files = (
 				94DDF599248FD2EF007A5035 /* AfterLaunchScreen.storyboard in Resources */,
 				94DDF58F248FD29F007A5035 /* LaunchScreen.storyboard in Resources */,
+				94423F59256AA8AB004AF50B /* PageCell.xib in Resources */,
+				94423F62256AB656004AF50B /* DdayPageCell.xib in Resources */,
 				94DDF58C248FD29F007A5035 /* Assets.xcassets in Resources */,
 				947E47F8255051AB000A292D /* CustomCollectionViewCell.xib in Resources */,
 				94DDF58A248FD29C007A5035 /* DdayTableViewController.storyboard in Resources */,
@@ -325,7 +339,9 @@
 				947E47EE25504D69000A292D /* JHCustomTabBar.swift in Sources */,
 				947E47F7255051AB000A292D /* CustomCollectionViewCell.swift in Sources */,
 				947E47FC25505329000A292D /* NSObject+reusableIdentifier.swift in Sources */,
+				94423F61256AB656004AF50B /* DdayPageCell.swift in Sources */,
 				94DDF5A5248FD7D3007A5035 /* DataRequest+Logging.swift in Sources */,
+				9434B43725655C8F00ABAC2A /* PageCell.swift in Sources */,
 				94DDF5A0248FD760007A5035 /* JHLog.swift in Sources */,
 				949E30242522343D008C1015 /* Product.swift in Sources */,
 				947E47E925504897000A292D /* DdayTableViewCotrollerViewController.swift in Sources */,
